@@ -7,9 +7,9 @@ const VendingMachine = () => {
       <h1 className="VendingMachine-welcome">Welcome to the Vending Machine</h1>
       <h2 className="VendingMachine-instructions">Please select a snack below</h2>
       <div className="VendingMachine-links">
-        <Link to="/chips">Chips</Link>
-        <Link to="/soda">Soda</Link>
-        <Link to="/candy">Candy</Link>
+        <button><Link to="/chips">Chips</Link></button>
+        <button><Link to="/soda">Soda</Link></button>
+        <button><Link to="/candy">Candy</Link></button>
       </div>
     </div>
   );
