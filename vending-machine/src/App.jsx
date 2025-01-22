@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import './App.css';
 
+import NavBar from "./NavBar.jsx";
 import VendingMachine from "./VendingMachine.jsx";
 import Chips from "./Chips.jsx";
 import Soda from "./Soda.jsx";
@@ -12,6 +13,7 @@ function App() {
   return (
    <div className="App">
     <BrowserRouter>
+      <NavBar />
       <Routes>
         <Route path="/" element={<VendingMachine />} />
         <Route path="/chips" element={<Chips />} />
