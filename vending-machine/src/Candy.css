@@ -1,0 +1,6 @@
+.Candy {
+  background: linear-gradient(rgba(255,255,255,.75), rgba(255,255,255,.75)), url("https://kdvr.com/wp-content/uploads/sites/11/2022/08/GettyImages-176869502.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}

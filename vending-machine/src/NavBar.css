@@ -1,3 +1,9 @@
+.NavBar {
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+}
+
 a.active {
   color: red;
   font-weight: bold;
